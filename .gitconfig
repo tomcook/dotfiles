@@ -1,0 +1,34 @@
+# 
+# Some of these values pulled from https://gist.github.com/sethvargo/6b2f7b592853381690bfe3bd00947e8f
+#
+
+[include]
+  path = ~/.gitconfig-local
+
+[core]
+  editor = $EDITOR
+
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+
+[color]
+  ui = true
+  diff = true
+  status = true
+  branch = true
+  interactive = true
+
+[format]
+  pretty = %C(bold yellow)%h%Creset %s %C(bold blue)[%an]%Creset %Cblue{%G?}%Creset %Cgreen(%cr)%Creset
+
+[submodule]
+  fetchJobs = "7"
+
+[push]
+	default = simple

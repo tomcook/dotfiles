@@ -1,0 +1,4 @@
+# =====================================================
+# Path modification
+
+export PATH=$HOME/bin:$PATH

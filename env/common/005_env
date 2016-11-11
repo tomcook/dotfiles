@@ -1,0 +1,6 @@
+# =====================================================
+# Commonly used environment variables
+
+export SVN_EDITOR=vim
+export EDITOR=vim
+export TERM=xterm

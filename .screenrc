@@ -1,0 +1,12 @@
+escape ^Aa
+
+shell -bash
+msgwait 3
+sorendition 04 43
+hardstatus on
+hardstatus alwayslastline "%{= kc} %-w%{+r}%n %t%{-}%+w "
+vbell off
+defscrollback 102400
+startup_message off
+defutf8 on
+bell_msg ""

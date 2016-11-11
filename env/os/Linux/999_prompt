@@ -1,0 +1,3 @@
+PS1="${White}[${Purple}\u${White}@${Green}\h ${Purple}\w${White}]${Red}\$${NC} "
+
+PROMPT_COMMAND='echo -ne "\033]0;${HOSTNAME} ${PWD}\007"'
