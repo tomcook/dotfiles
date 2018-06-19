@@ -1,4 +1,4 @@
 # =====================================================
 # Aliases
 
-alias go='tmux a -t purpledrink'
+alias purp='tmux a -t purpledrink'
