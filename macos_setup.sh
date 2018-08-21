@@ -7,7 +7,7 @@
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install gpg htop nmap wget jq
+brew install gpg htop nmap wget jq httpie
 
 # all systems
 
