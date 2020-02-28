@@ -21,7 +21,7 @@ brew cask install google-chrome-beta little-snitch 1password 1password-cli spoti
 
 # personal only
 
-brew cask install battlenet discord steam
+brew cask install battle-net discord steam
 
 # extra setup steps
 
