@@ -17,7 +17,7 @@ mas install 497799835 1091189122 539883307 409183694 413965349 407963104 1451685
 
 # all systems
 
-brew cask install google-chrome-beta little-snitch 1password 1password-cli spotify iterm2 visual-studio-code github homebrew/cask-versions/slack-beta keybase caffeine istat-menus transmit
+brew cask install google-chrome-beta little-snitch 1password 1password-cli spotify iterm2 aerial visual-studio-code github homebrew/cask-versions/slack-beta keybase caffeine istat-menus transmit
 
 # personal only
 
