@@ -11,11 +11,11 @@ brew install gpg htop nmap wget jq httpie
 
 # all systems
 
-brew cask install google-chrome-beta 1password 1password-cli spotify iterm2 atom visual-studio-code github evernote homebrew/cask-versions/slack-beta keybase caffeine istat-menus transmit
+brew cask install google-chrome-beta little-snitch 1password 1password-cli spotify iterm2 visual-studio-code github homebrew/cask-versions/slack-beta keybase caffeine istat-menus transmit
 
 # personal only
 
-brew cask install battlenet discord tunnelbear steam
+brew cask install battlenet discord steam
 
 # extra setup steps
 
