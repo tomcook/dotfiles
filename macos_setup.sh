@@ -21,7 +21,7 @@ brew cask install homebrew/cask-versions/google-chrome-beta little-snitch 1passw
 
 # personal only
 
-brew cask install battle-net discord steam
+brew cask install battle-net discord steam docker
 
 # extra setup steps
 
