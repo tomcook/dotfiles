@@ -10,18 +10,22 @@
 brew install gpg htop nmap wget jq httpie mas
 
 # Mac App Store
-#
-# (In order below) XCode, Bear, LINE, Keynote, Soulver, Pixelmator, WireGuard, Amphetamine, Day One, Brother Scanner Software, NextDNS
 
-mas install 497799835 1091189122 539883307 409183694 413965349 407963104 1451685025 937984704 1055511498 1193539993 1464122853
+# Used everywhere
+# XCode, NextDNS, Amphetamine, WireGuard
+mas install 497799835 1464122853 937984704 1451685025
+
+# Personal Stuff
+# Bear, Brother Scanner Software, Day One, LINE, Keynote, Soulver, Pixelmator
+mas install 1091189122 1193539993 1055511498 539883307 409183694 413965349 407963104
 
 # all systems
 
-brew cask install homebrew/cask-versions/google-chrome-beta little-snitch 1password 1password-cli spotify iterm2 aerial visual-studio-code github homebrew/cask-versions/slack-beta istat-menus transmit hashicorp/tap/terraform hashicorp/tap/packer
+brew install docker homebrew/cask-versions/google-chrome-beta little-snitch 1password 1password-cli spotify iterm2 aerial visual-studio-code github homebrew/cask-versions/slack-beta istat-menus transmit hashicorp/tap/terraform hashicorp/tap/packer
 
 # personal only
 
-brew cask install battle-net discord steam docker
+brew cask install battle-net discord steam
 
 # extra setup steps
 
