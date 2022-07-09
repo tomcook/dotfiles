@@ -3,6 +3,9 @@
 # Packages installed via Brew
 #
 
+# Change default shell to bash
+chsh -s /bin/bash
+
 # Install brew
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
