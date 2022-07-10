@@ -26,7 +26,7 @@ mas install 1091189122 1193539993 1055511498 539883307 409183694 1508732804 4079
 
 # all systems
 
-brew install --cask docker homebrew/cask-versions/google-chrome-beta docker little-snitch 1password 1password-cli spotify iterm2 aerial visual-studio-code github homebrew/cask-versions/slack-beta istat-menus transmit 
+brew install --cask docker homebrew/cask-versions/google-chrome-beta docker little-snitch 1password 1password-cli spotify iterm2 aerial visual-studio-code github homebrew/cask-versions/slack-beta istat-menus soundsource transmit 
 
 # Hashicorp
 
