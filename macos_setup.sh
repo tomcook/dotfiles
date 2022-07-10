@@ -4,7 +4,7 @@
 chsh -s /bin/bash
 
 # Install Rosetta 2
-/usr/sbin/softwareupdate –install-rosetta –agree-to-license
+/usr/sbin/softwareupdate --install-rosetta --agree-to-license
 
 # Remove everything from the Dock
 defaults write com.apple.dock persistent-apps -array
