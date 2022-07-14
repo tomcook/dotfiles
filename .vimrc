@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 syntax on
 set background=light
 set shiftwidth=2
